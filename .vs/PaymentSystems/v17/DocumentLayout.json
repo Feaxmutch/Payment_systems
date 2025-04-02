@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u0434\u0430\u043D\u0438\u043B\\Projects\\visual_studio_projects\\IJ_projects\\File\\PaymentSystems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5F0B52-3604-4959-BC2F-8CC215B9AE89}|PaymentSystems\\PaymentSystems.csproj|f:\\\u0434\u0430\u043D\u0438\u043B\\projects\\visual_studio_projects\\ij_projects\\file\\paymentsystems\\paymentsystems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5F0B52-3604-4959-BC2F-8CC215B9AE89}|PaymentSystems\\PaymentSystems.csproj|solutionrelative:paymentsystems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\\u0434\u0430\u043D\u0438\u043B\\Projects\\visual_studio_projects\\IJ_projects\\File\\PaymentSystems\\PaymentSystems\\Program.cs",
+              "RelativeDocumentMoniker": "PaymentSystems\\Program.cs",
+              "ToolTip": "F:\\\u0434\u0430\u043D\u0438\u043B\\Projects\\visual_studio_projects\\IJ_projects\\File\\PaymentSystems\\PaymentSystems\\Program.cs",
+              "RelativeToolTip": "PaymentSystems\\Program.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAQwBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:57:16.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

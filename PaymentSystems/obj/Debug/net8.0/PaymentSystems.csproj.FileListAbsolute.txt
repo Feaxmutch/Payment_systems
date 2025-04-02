@@ -1,0 +1,14 @@
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\bin\Debug\net8.0\PaymentSystems.exe
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\bin\Debug\net8.0\PaymentSystems.deps.json
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\bin\Debug\net8.0\PaymentSystems.runtimeconfig.json
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\bin\Debug\net8.0\PaymentSystems.dll
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\bin\Debug\net8.0\PaymentSystems.pdb
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.GeneratedMSBuildEditorConfig.editorconfig
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.AssemblyInfoInputs.cache
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.AssemblyInfo.cs
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.csproj.CoreCompileInputs.cache
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.dll
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\refint\PaymentSystems.dll
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.pdb
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\PaymentSystems.genruntimeconfig.cache
+F:\данил\Projects\visual_studio_projects\IJ_projects\File\PaymentSystems\PaymentSystems\obj\Debug\net8.0\ref\PaymentSystems.dll
