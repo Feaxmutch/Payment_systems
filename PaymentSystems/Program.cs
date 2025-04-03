@@ -25,7 +25,11 @@ namespace PaymentSystems
         public readonly int Id;
         public readonly int Amount;
 
-        public Order(int id, int amount) => (Id, Amount) = (id, amount);
+        public Order(int id, int amount)
+        {
+            Id = id;
+            Amount = amount;
+        }
     }
 
     public interface IPaymentSystem
@@ -49,24 +53,12 @@ namespace PaymentSystems
 
         public string GetHash(string[] input)
         {
-            string allStrings = SumStrings(input);
+            string allStrings = string.Join(string.Empty, input);
             byte[] inputBytes = Encoding.Default.GetBytes(allStrings);
             byte[] hashBytes = _hashAlgorithm.ComputeHash(inputBytes);
             string hash = Convert.ToHexString(hashBytes);
 
             return hash;
-        }
-
-        private string SumStrings(string[] strings)
-        {
-            string allStrings = string.Empty;
-
-            for (int i = 0; i < strings.Length; i++)
-            {
-                allStrings += strings[i];
-            }
-
-            return allStrings;
         }
     }
 
@@ -93,7 +85,7 @@ namespace PaymentSystems
 
     public class PaymentSystem2 : IPaymentSystem
     {
-        IHasher _hasher;
+        private readonly IHasher _hasher;
 
         public PaymentSystem2(IHasher hasher)
         {
@@ -114,8 +106,8 @@ namespace PaymentSystems
 
     public class PaymentSystem3 : IPaymentSystem
     {
-        IHasher _hasher;
-        Random _random;
+        private readonly IHasher _hasher;
+        private readonly Random _random;
 
         public PaymentSystem3(IHasher hasher)
         {
