@@ -56,9 +56,8 @@ namespace PaymentSystems
             string allStrings = string.Join(string.Empty, input);
             byte[] inputBytes = Encoding.Default.GetBytes(allStrings);
             byte[] hashBytes = _hashAlgorithm.ComputeHash(inputBytes);
-            string hash = Convert.ToHexString(hashBytes);
 
-            return hash;
+            return Convert.ToHexString(hashBytes);
         }
     }
 
@@ -77,9 +76,8 @@ namespace PaymentSystems
             string id = order.Id.ToString();
             string amount = order.Amount.ToString();
             string hash = _hasher.GetHash([id]);
-            string link = $"pay.system1.ru/order?amount={amount}RUB&hash={{{hash}}}";
 
-            return link;
+            return $"pay.system1.ru/order?amount={amount}RUB&hash={{{hash}}}";
         }
     }
 
@@ -98,9 +96,8 @@ namespace PaymentSystems
             string id = order.Id.ToString();
             string amount = order.Amount.ToString();
             string hash = _hasher.GetHash([id, amount]);
-            string link = $"order.system2.ru/pay?hash={{{hash}}}";
 
-            return link;
+            return $"order.system2.ru/pay?hash={{{hash}}}";
         }
     }
 
@@ -122,9 +119,8 @@ namespace PaymentSystems
             string id = order.Id.ToString();
             string amount = order.Amount.ToString();
             string hash = _hasher.GetHash([id, amount]);
-            string link = $"system3.com/pay?amount={amount}&curency=RUB&hash={{{hash}{secretKey}}}";
 
-            return link;
+            return $"system3.com/pay?amount={amount}&curency=RUB&hash={{{hash}{secretKey}}}";
         }
 
         private string GetSecretKey()
